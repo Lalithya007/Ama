@@ -1,0 +1,49 @@
+body{
+    background-image:url("back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#a{
+    height: 50px;
+}
+.nav{
+    display:flex;
+
+}
+ul{
+    list-style-type:none;
+    display:flex;
+}
+ul li{
+    margin: 2px;
+    margin-left: 100px;
+    font-size: 20px;
+}
+.search {
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.about{
+    padding-bottom:10px;
+    margin-bottom:0px;
+    font-size:20px;
+}
+.button1{
+    font-size: larger;
+}
+.form{
+    font-size:20px;
+    border:1px solid black;
+    width:20%;
+    position:absolute;
+    top:20%;
+    left:60%;
+    padding:0%;
+    border-radius: 10px;
+    background-image:url("form2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form input{
+    margin:10px;
+}
